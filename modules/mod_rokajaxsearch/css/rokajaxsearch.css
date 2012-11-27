@@ -1,0 +1,123 @@
+#roksearch_search_str {
+	width: 150px;
+}
+#roksearch_search_str.loading {
+	background: transparent url(../images/spinner.gif) no-repeat scroll 100% 50%
+}
+#roksearch_results {
+	z-index: 10000;
+	position: absolute;
+	width: 400px;
+	float:right;
+	background-color: #ddd;
+	text-align: left;
+	visibility: hidden;
+}
+.roksearch_results {
+	border: 4px #ddd solid;
+}
+#roksearch_results #roksearch_link {
+	background: url(../images/close.png) top left no-repeat;
+	float: right;
+	width: 16px;
+	height: 16px;
+	padding-right: 5px;
+	margin-top: 4px;
+}
+#roksearch_results .roksearch_header {
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #333;
+	color: #f2f2f2;
+	padding: 4px;
+}
+#roksearch_results .powered-by-google {
+	font-size: 9px;
+	font-style: italic;
+	margin-left: 5px;
+}
+#roksearch_results h3 {
+	color: #000;
+	padding-bottom: 3px;
+	margin-top: 0;
+}
+#roksearch_results span {
+	line-height: 100%;
+}
+#roksearch_results .roksearch_odd {
+	border-top: 2px #0c0c0c solid;
+	background-color: #f3f3f3;
+	color: #333;
+	padding: 5px;
+}
+
+#roksearch_results .roksearch_even {
+	border-top: 2px #eee solid;
+	background-color: #FFF;
+	padding: 5px;
+}
+#roksearch_results .roksearch_odd-hover, #roksearch_results .roksearch_even-hover {
+	background: #ddd;
+}
+#roksearch_results .container-arrows {
+	float: left;
+}
+#roksearch_results .arrow-left, #roksearch_results .arrow-right,
+#roksearch_results .arrow-left-disabled, #roksearch_results .arrow-right-disabled {
+	background: transparent url(../images/roksearch-arrow.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin-right: 5px;
+}
+#roksearch_results .arrow-left {
+	background-position: top left;
+}
+#roksearch_results .arrow-left-disabled {
+	background-position: bottom left;
+}
+#roksearch_results .arrow-right {
+	background-position: top right;
+}
+#roksearch_results .arrow-right-disabled {
+	background-position: bottom right;
+}
+#roksearch_results .container-wrapper {
+	overflow: hidden;
+}
+
+#roksearch_results .container-scroller {
+
+}
+#roksearch_results .page {
+	float: left;
+}
+#roksearch_results .roksearch_row_btm {
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #333;
+	color: #f3f3f3;
+	padding: 4px;
+	height: 14px;
+}
+#roksearch_results .roksearch_row_btm .highlight {
+	color: #333;
+}
+#roksearch_results .roksearch_row_btm a.viewall {
+	float: left;
+}
+#roksearch_results .estimated_res, #roksearch_results .pagination_res {
+	font-size: 9px;
+	font-style: italic;
+	padding-top: 3px;
+	text-transform: none;
+	margin-left: 5px;
+	float: left;
+}
+#roksearch_results .pagination_res {
+	font-style: normal;
+	float: right;
+	padding-top:0;
+}

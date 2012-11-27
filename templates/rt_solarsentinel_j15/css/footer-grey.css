@@ -1,0 +1,15 @@
+/* Grey Footer Style */
+
+#botbar {background: #ABABAB url(../images/footer/grey/botbar-bg.png) 0 0 repeat-x;}
+#bottom {background: #8B8B8B url(../images/footer/grey/bottom-bg.png) 0 0 repeat-x;}
+#mainmodules4 {color: #333;}
+#mainmodules4 a {color: #fff;}
+#copyright {color: #333;}
+#bottom-menu ul li a, #bottom-menu ul li .separator {color: #444;}
+#bottom-menu ul li a:hover, #bottom-menu ul li .separator:hover {color: #fff;}
+#bottom ul li a {background: url(../images/modules/grey-arrow.png) 0 4px no-repeat;color: #fff;}
+#bottom ul li:hover a {color: #000;}
+#rocket {background: url(../images/footer/grey/rocket.png) 0 0 no-repeat;}
+#top-button {background: url(../images/footer/grey/top-button-bg.png) 0 0 no-repeat;}
+#top-button a {color: #444;}
+#top-button a:hover {color: #fff;}

@@ -1,0 +1,122 @@
+/* Beige Body Style */
+
+#top-bar {background: #D2D0C2 url(../images/body/beige/topbar-bg.png) 0 0 repeat-x;color: #444;}
+#header-bar {border-top: 3px solid #F6F6E9;}
+
+.s-c-s .colright, .x-c-s .colmask, #inset-block-right {background-image: url(../images/body/beige/col-r.png);}
+.s-c-s .colmask, .s-c-x .colmask, #inset-block-left {background-image: url(../images/body/beige/col-l.png);}
+.leftmenu {background: #F6F6E9;}
+#body-left {background: url(../images/body/beige/body-l.png) 0 0 repeat-y;}
+#body-right {background: url(../images/body/beige/body-r.png) 100% 0 repeat-y;}
+
+.module-header {background: url(../images/modules/beige-module-h3-2.png) 0 0 repeat-x;}
+#leftcol .module-header2, #inset-block-left .module-header2 {background: url(../images/modules/left-beige-h3-3.png) 100% 0 no-repeat;}
+#leftcol .side-mod h3, #inset-block-left .side-mod h3 {background: url(../images/modules/left-beige-module-h3.png) 0 0 no-repeat;}
+.side-mod h3 {background: url(../images/modules/beige-module-h3.png) 0 0 no-repeat;color: #333;}
+.micronews-headline h2, h3.main-modules {background: url(../images/modules/beige-h2.png) 50% 100% no-repeat;color: #333;}
+.readon1-l {background: url(../images/modules/beige-readon-l.png) 0 0 no-repeat;}
+.readon1-m {background: url(../images/modules/beige-readon-m.png) 50% 0 repeat-x;}
+.readon1-r {background: url(../images/modules/beige-readon-r.png) 100% 0 no-repeat;}
+form.form-login .login-links a {background: url(../images/modules/beige-arrow.png) 0 3px no-repeat;}
+
+#main-body ul.menu li {background: #F6F6E9;}
+#main-body ul.menu li a {background: url(../images/modules/beige-arrow.png) 10px 10px no-repeat;}
+#main-body ul.menu li.active, #main-body ul.menu li:hover {background: #BEBBA7 url(../images/modules/darkbeige-module-h3-2.png) 10px 0 repeat-x;}
+#main-body ul.menu li.active.parent li span, #main-body ul.menu li.parent li span {background: url(../images/body/beige/beige-side-sub-bullet.png) 0 0 no-repeat;}
+#main-body ul.menu li a, #main-body ul.menu li.parent li a, #main-body ul.menu li.parent li.parent li a, #main-body ul.menu li.parent li .separator, #main-body ul.menu li.parent li.parent li .separator {color: #333;}
+
+.roktabs {background: #BEBBA7 url(../images/body/beige/roktabs-bg.png) 0 0 repeat-x;}
+.tabs-bottom .roktabs {background: #BEBBA7 url(../images/body/beige/roktabs-bg-bottom.png) 0 100% repeat-x;}
+.roktabs-wrapper .roktabs-container-wrapper div.wrapper {background: #F6F6E9;}
+.roktabs-wrapper .active-arrows .roktabs-links {background: url(../images/body/beige/roktabs-bg2.png) 0 0 repeat-x;}
+.tabs-bottom .active-arrows .roktabs-links {background: url(../images/body/beige/roktabs-bg2-bottom.png) 0 0 repeat-x;}
+.roktabs-wrapper .roktabs-links ul.roktabs-top li.active {background: url(../images/body/beige/roktabs-active.png) 50% 33px no-repeat;}
+.tabs-bottom .roktabs-links ul.roktabs-bottom li.active {background: url(../images/body/beige/roktabs-active-bottom.png) 50% 12px no-repeat;}
+.roktabs-wrapper .arrow-next {background: url(../images/body/beige/roktabs-next.png) 0 0 no-repeat;right: 0;}
+.roktabs-wrapper .arrow-prev {background: url(../images/body/beige/roktabs-prev.png) 0 0 no-repeat;left: 0;}
+.tabs-bottom .arrow-next {background: url(../images/body/beige/roktabs-next-bottom.png) 0 0 no-repeat;right: 0;}
+.tabs-bottom .arrow-prev {background: url(../images/body/beige/roktabs-prev-bottom.png) 0 0 no-repeat;left: 0;}
+.tabs-hidden .roktabs {background: #BEBBA7;}
+
+.rokmicronews-surround {background: #BEBBA7 url(../images/body/beige/roktabs-bg.png) 0 0 repeat-x;}
+.micronews-right .micronews-wrapper {background: #F6F6E9 url(../images/body/beige/rokmicro-list-bg.png) 100% 0 repeat-y;}
+.micronews-left .micronews-wrapper {background: #F6F6E9 url(../images/body/beige/rokmicro-list-bg.png) 0 0 repeat-y;}
+.micronews-controls {background: url(../images/body/beige/rmn-inset-r.png) 100% 0 no-repeat;}
+.micronews-controls2 {background: url(../images/body/beige/rmn-inset-l.png) 0 0 no-repeat;}
+#rokmicronews .mover {background: url(../images/body/beige/move-handle.png) 0 0 no-repeat;}
+#rokmicronews .collapse {background: url(../images/body/beige/rmn-expander.png) 0 0 no-repeat;}
+#rokmicronews .expand {background: url(../images/body/beige/rmn-expander.png) -15px 0 no-repeat;}
+.micronews-titles {color: #333;background: #BEBBA7;}
+.micronews-list {background: url(../images/body/beige/rokmicro-list-bg2.png) 0 0 repeat-x;}
+.micronews-list ul li a {background: url(../images/modules/grey-arrow.png) 0 3px no-repeat;}
+.micronews-list ul li.active {background: #F6F6E9;}
+.micronews-headline .counter {background: url(../images/body/beige/mininews-bar-r.png) 100% 0 no-repeat;color: #333;}
+.micronews-headline .counter span {background: url(../images/body/beige/mininews-bar-l.png) 0 0 no-repeat;}
+.micronews-drop {border: 5px dashed #ccc;background: #F6F6E9 url(../images/drophere.png) center center no-repeat;}
+
+#newsflash {background: url(../images/body/beige/newsflash-bg.png) 0 0 repeat-x;border-bottom: 3px solid #F6F6E9;border-top: 3px solid #F6F6E9;}
+#newsflash .flashing {background: url(../images/body/beige/newsflash-tab.png) 0 0 no-repeat;color: #fff;}
+#newsflash .control-prev {background-image: url(../images/body/beige/newsflash-controls.png);}
+#newsflash .control-next {background-image: url(../images/body/beige/newsflash-controls.png);}
+
+.feature-module {background: url(../images/body/beige/feature-bg.png) 0 0 no-repeat;border-top: 3px solid #F6F6E9;}
+.feature-module .readon1-l {background: url(../images/body/beige/feature-readon-l.png) 0 0 no-repeat;}
+.feature-module .readon1-m {background: url(../images/body/beige/feature-readon-m.png) 50% 0 repeat-x;}
+.feature-module .readon1-r {background: url(../images/body/beige/feature-readon-r.png) 100% 0 no-repeat;}
+.roktabs .readon1-l {background: url(../images/body/beige/feature-readon-l.png) 0 0 no-repeat;}
+.roktabs .readon1-m {background: url(../images/body/beige/feature-readon-m.png) 50% 0 repeat-x;}
+.roktabs .readon1-r {background: url(../images/body/beige/feature-readon-r.png) 100% 0 no-repeat;}
+
+#breadcrumbs {background: url(../images/body/beige/newsflash-bg.png) 0 0 repeat-x;}
+#breadcrumbs-home {background: url(../images/body/beige/breadcrumb-tab.png) 0 0 no-repeat;}
+span.breadcrumbs {color: #333;}
+span.breadcrumbs img {background: url(../images/body/beige/breadcrumb-sep.png) 50% 50% no-repeat;}
+span.breadcrumbs a {color: #333;}
+span.breadcrumbs .no-link {color: #555;}
+span.breadcrumbs a:hover {color: #fff;}
+
+.showcase-surround {background: #D2D0C2 url(../images/body/beige/topbar-bg.png) 0 0 repeat-x;border-top: 3px solid #F6F6E9;border-bottom: 1px solid #ccc;}
+#mainmodules3 {background: #D2D0C2 url(../images/body/beige/topbar-bg.png) 0 0 repeat-x;border-top: 1px solid #ddd;border-bottom: 3px solid #F6F6E9;}
+.article-info-surround {background: url(../images/body/beige/infoarrow.png) 19px 100% no-repeat;}
+.article-info-surround2 {background: #EFEFE5 url(../images/body/beige/topbar-bg.png) 0 100% repeat-x;}
+p.articleinfo {color: #444;}
+p.iteminfo {color: #666;}
+div.pagination div.tab {background: url(../images/body/beige/page-tab-r.png) 100% 0 no-repeat;}
+div.pagination div.tab2 {background: url(../images/body/beige/page-tab-l.png) 0 0 no-repeat;}
+.blog_more ul li, .block ul#mainlevel-nav li {background: url(../images/modules/beige-div.png) 0 100% repeat-x;}
+.blog_more h2 {color: #333;}
+
+.component-header {background: url(../images/modules/beige-module-h3-2.png) 0 0 repeat-x;}
+.componentheading {background: url(../images/body/beige/component-head-bg.png) 0 0 no-repeat;}
+
+#lock-button {background: url(../images/body/beige/lock.png) 0 50% no-repeat;}
+#lock-button.login {background: url(../images/body/beige/lock2.png) 0 50% no-repeat;}
+#login-module h3 {background: url(../images/body/beige/lock2.png) 0 5px no-repeat;}
+#login-module .logout h3 {background: url(../images/body/beige/lock.png) 0 5px no-repeat;}
+#login-module form.form-login .inputbox {background: url(../images/body/beige/login-field.png) 0 0 no-repeat;color:#333;}
+a.large .button {background: url(../images/body/beige/font-button.png) 0 0 no-repeat;}
+a.small .button {background: url(../images/body/beige/font-button.png) -18px 0 no-repeat;}
+a#rokbox-close {background: url(../images/body/beige/light-close.png) 0 0 no-repeat;}
+
+#main-content .rokradios {background: url(../images/modules/beige-inputs.png) 0 0 no-repeat;}
+#main-content .rokradios-active {background: url(../images/modules/beige-inputs.png) 0 -114px no-repeat;}
+#main-content .rokchecks, #login-module .rokchecks {background: url(../images/modules/beige-inputs.png) 0 -209px no-repeat;}
+#main-content .rokchecks-active, #login-module .rochecks-active {background: url(../images/modules/beige-inputs.png) 0 -323px no-repeat;}
+
+.contact_email .inputbox, .register-page .inputbox, input#email {background: url(../images/body/beige/login-field.png) 0 0 no-repeat;color: #333;}
+.contact_email #contact_text.inputbox {background: url(../images/body/beige/input-field-large.png) 0 0 no-repeat;color: #333;}
+form.search_result input#search_searchword.inputbox, form.form-login .inputbox {background: url(../images/body/beige/login-field.png) 0 0 no-repeat;color: #333;}
+.search-results-full .results ol.list p {color: #888;}
+.advertisement .side-mod h3.module-title span {color: #666;}
+.search-results-full span.highlight {background: #666;color: #fff;}
+
+ul.roknewspager li, ul.newsfeed li, ul.latestnews li a, ul.mostread li a, div.block ul.latestnews li a, div.block ul.mostread li a, .blog_more ul li a, .block ul#mainlevel-nav li a {background: url(../images/modules/beige-arrow.png) 0 4px no-repeat;}
+ul.roknewspager-numbers li.active {color: #000;}
+ul.roknewspager .roknewspager-div, ul.newsfeed .newsfeed-div, ul.latestnews li, ul.mostread li, div.block ul.latestnews li, div.block ul.mostread li {background: url(../images/modules/beige-div.png) 0 100% repeat-x;}
+.roknewspager-pages {background: #D9D7C6;}
+ul.roknewspager-numbers {background: url(../images/modules/beige-page-m.png) 0 0 repeat-x;}
+.roknewspager-prev {background: url(../images/modules/beige-page-controls.png) 0 0 no-repeat;}
+.roknewspager-prev-disabled {background: url(../images/modules/beige-page-controls.png) 0 -18px no-repeat;}
+.roknewspager-next {background: url(../images/modules/beige-page-controls.png) -16px 0 no-repeat;}
+.roknewspager-next-disabled {background: url(../images/modules/beige-page-controls.png) -16px -18px no-repeat;}
+.roknewspager-overlay {background: #fff;}

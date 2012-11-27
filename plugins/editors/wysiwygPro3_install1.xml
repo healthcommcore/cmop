@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <install version="1.5.0" type="plugin" group="editors">
+    <name>Editor - WysiwygPro 3 Install Step 1 (DO NOT USE)</name>
+    <version></version>
+    <creationDate></creationDate>
+    <author></author>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <copyright></copyright>
+    <license></license>
+    <description>WysiwygPro Installation Step One Complete. Please now install Plugin2.zip.</description>
+    <files> 
+<filename>wysiwygPro3/wysiwygPro/core/compileCoreDialogJS.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/compileCoreEditorJS.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/compileJSPlugins.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/compileSharedJS.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/touch.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/css/dialog.css</filename>
+<filename>wysiwygPro3/wysiwygPro/core/css/document.css</filename>
+<filename>wysiwygPro3/wysiwygPro/core/css/editor.css</filename>
+<filename>wysiwygPro3/wysiwygPro/core/css/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/css/source.css</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/html/blank.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/html/iframeSecurity.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/html/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/images/downarrow.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/core/images/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/images/numbering.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/core/images/placeholder.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/core/images/spacer.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/base64.js</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/js/dialog.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/dragiframe.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/editor.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/ieSpecific.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/mozSpecific.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/operaSpecific.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/safSpecific.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproCookies.js</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/js/wproFindAndReplace.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproForms.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproMoveResize.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproPMenu.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproUIColorPicker.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproUIImageRadio.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproUISelect.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/wproUITabbed.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/COOLjsTreePro/cooltreepro.js</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/js/COOLjsTreePro/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/COOLjsTreePro/tree_format.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/xajax/activex_off.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/xajax/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/xajax/xajax.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/js/xajax/xajax_uncompressed.js</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/common.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/compileJSCommon.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/v2ConfigLoader.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproAjax.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproCore.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproDialog.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystem.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystemBase.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproImageEditor.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproLangLoader.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproMessageExit.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproRoute.class.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproSession.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproWebAgent.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wysiwygPro.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/license.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_file_utilities.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_http_client_generic.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_http_client_include.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_http_connector.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_http_exceptions.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/php_http_proxy.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_cache.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_doctor.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_getelementsbypath.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_lite_include.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_lite_parser.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_nodemaps.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_shared.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_domit_utilities.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_saxy_lite_parser.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/domit/xml_saxy_shared.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/getid3.lib.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/getid3.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/license.commercial.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio-video.asf.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio-video.flv.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio-video.quicktime.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio-video.riff.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio-video.swf.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.audio.mp3.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.tag.apetag.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.tag.id3v1.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.tag.id3v2.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/getid3/module.tag.lyrics3.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystem/getFilesInDir.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystem/getFoldersInDir.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystem/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproFilesystem/uploadFiles.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_HTMLCheckboxes.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_HTMLInput.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_HTMLLabel.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_HTMLRadios.class.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_HTMLSelect.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UI2ColTable.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UIColorPicker.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UIDropDown.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UIImageRadio.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UISelect.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UITabbed.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UITree.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wproTemplate/wproTemplate_UIURLChooser.class.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/libs/wysiwygPro/getDirectories.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/wysiwygPro/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/xajax/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/xajax/xajax.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/libs/xajax/xajaxResponse.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/tpl/dialog.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/dialogFrame.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/editor.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/messageExit.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/messageExitBody.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/textarea.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UIColorPicker.tpl.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UIDropDown.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UIImageRadio.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UISelect.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UITabbed.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/core/tpl/UITree.tpl.php</filename>		
+		<filename plugin="wysiwygPro3_install1">wysiwygPro3_install1.php</filename>
+    </files>
+	<params/>
+  </install>

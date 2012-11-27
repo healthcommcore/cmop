@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <install version="1.5.0" type="plugin" group="editors">
+    <name>Editor - WysiwygPro 3</name>
+    <version>1.0.1 with WP 3.0.3</version>
+    <creationDate>March 2008</creationDate>
+    <author>Chris Bolt</author>
+    <authorEmail>service@wysiwygpro.com</authorEmail>
+    <authorUrl>http://www.wysiwygpro.com</authorUrl>
+    <copyright>Chris Bolt</copyright>
+    <license>WysiwygPro http://www.wysiwygpro.com/licensing</license>
+    <description>WysiwygPro Installation Step Four Complete. If you have not installed the component please now install Component.zip.</description>
+    <files> 
+<filename>wysiwygPro3/wysiwygPro/config.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/config.php</filename>
+<filename>wysiwygPro3/wysiwygPro/dialog.php</filename>
+<filename>wysiwygPro3/wysiwygPro/dialog_frame.php</filename>
+<filename>wysiwygPro3/wysiwygPro/editor_class.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/editor_functions.php</filename>
+<filename>wysiwygPro3/wysiwygPro/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/LICENSE AND COPYRIGHT.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/version.php</filename>
+<filename>wysiwygPro3/wysiwygPro/wproAjax.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/wproRoute.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/wproUtilities.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/wysiwygPro.class.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/colorSwatches.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/customSessHandlers.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/conf/defaultPlugins.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/dialogConfig.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/emoticons.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/fileDefinitions.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/langCodes.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/specialCharacters.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/spellchecker.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/tagAttributes.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/wproCore_codeCleanup.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/wproCore_fileBrowser.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/wproCore_list.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/wproCore_ruler.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/conf/defaultValues/wproCore_table.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/images/folder.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/htm_icon.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/post.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/save.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/send.gif</filename>
+
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley1.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley10.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley11.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley12.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley13.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley14.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley15.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley16.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley2.gif</filename>
+
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley3.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley4.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley5.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley6.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley7.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley8.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/images/smileys/smiley9.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/js/ajaxDisplay.js</filename>
+<filename>wysiwygPro3/wysiwygPro/js/dialogEditorShared.js</filename>
+
+<filename>wysiwygPro3/wysiwygPro/js/dialogShared.js</filename>
+<filename>wysiwygPro3/wysiwygPro/js/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/js/wproObject.js</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/dialog.css</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/document.css</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/editor.css</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/lang.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/Read Me.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/images/editableRegion.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/images/form.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/images/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_bookmark.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_codeCleanup.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_colorPicker.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_emoticons.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_fileBrowser.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_find.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_list.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_snippets.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_specialCharacters.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_spellchecker.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_table.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-gb/wysiwygpro/includes/wproCore_tagEditor.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/dialog.css</filename>
+
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/document.css</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/editor.css</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/lang.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/Read Me.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/images/editableRegion.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/images/form.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/images/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/index.htm</filename>
+
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_bookmark.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_codeCleanup.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_colorPicker.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_emoticons.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_fileBrowser.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_find.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_list.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_snippets.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_specialCharacters.inc.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_spellchecker.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_table.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/lang/en-us/wysiwygpro/includes/wproCore_tagEditor.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/dialog.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/Read Me.txt</filename>
+
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/includes/1.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/includes/dialog.css</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/includes/exButton1.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/includes/exButton2.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/EXAMPLE/includes/exButton3.gif</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/JSEmbed/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/JSEmbed/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/JSEmbed/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/index.htm</filename>
+
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/Read Me.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/flash/form.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/flash/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/flash/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/images/local.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/images/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/images/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/images/remote.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/quicktime/form.tpl.php</filename>
+
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/quicktime/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/quicktime/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/windowsMedia/form.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/windowsMedia/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/windowsMedia/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/zz_other/form.tpl.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/zz_other/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/mediaPlugins/zz_other/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/serverPreview/index.htm</filename>
+
+<filename>wysiwygPro3/wysiwygPro/plugins/serverPreview/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/serverPreview/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/spellcheckPlugins/aspell.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/spellcheckPlugins/http.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/spellcheckPlugins/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/spellcheckPlugins/pspell.inc.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/spellcheckPlugins/Read Me.txt</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/tagPath/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/tagPath/plugin.js</filename>
+
+<filename>wysiwygPro3/wysiwygPro/plugins/tagPath/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/templateFilter/index.htm</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/templateFilter/plugin.js</filename>
+<filename>wysiwygPro3/wysiwygPro/plugins/templateFilter/plugin.php</filename>
+<filename>wysiwygPro3/wysiwygPro/temp/index.htm</filename>
+
+<filename>wysiwygPro3/document.css</filename>
+		
+		<filename plugin="wysiwygPro3">wysiwygPro3.php</filename>
+    </files>
+    <params> 
+	  <param name="lang" type="text" default="en-us" label="Language Pack" description="New language packs should be uploaded to /mambots/editors/wysiwygPro3/wysiwygPro/lang/"/> 
+	  <param name="theme" type="text" default="default" label="Theme" description="New themes should be uploaded to /mambots/editors/wysiwygPro3/wysiwygPro/themes/"/>
+      <param name="fixedWidth" type="text" default="100%" label="Width" description="If you would like to set the width of the editor then enter it here. Values may either be a percentage such as 100% or a fixed width such as 600"/>
+	  <param label="HTML Format" description="" name="@spacer" default="" type="spacer" />
+      <param name="htmlVersion" type="list" default="XHTML 1.0 Transitional" label="HTML Output" description="The HTML specification that generated HTML should conform to."> 
+        <option value="HTML 4.01 Transitional">HTML 4.01 Transitional</option>
+		<option value="HTML 4.01 Strict">HTML 4.01 Strict</option>
+		<option value="XHTML 1.0 Transitional">XHTML 1.0 Transitional</option>
+		<option value="XHTML 1.0 Strict">XHTML 1.0 Strict</option>
+        <option value="XHTML 1.1">XHTML 1.1</option>
+      </param>
+      <param name="lineReturns" type="list" default="P" label="Line Returns" description="Whether to use P tags or DIV tags when you press enter."> 
+        <option value="P">P</option>
+        <option value="DIV">DIV</option>
+      </param>
+     <param name="urlFormat" type="list" default="relative" label="URL Schema" description="Sets the format of URLs. Include domain name is a good choice if content is to be delivered via email. Do not include domain name is a good choice if you use SEF URLs and would like the ability to move the site to another domain. Relative is a great choice for development environments but could cause problems if you use SEF URLs."> 
+        <option value="absolute">Include domain name</option>
+        <option value="nodomain">Do not include domain name</option>
+		<option value="relative">Relative</option>
+      </param>
+
+      <param name="escapeCharacters" type="list" default="0" label="Escape Special Characters" description="Whether to escape special characters."> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+	  
+	        <param label="Styles" description="" name="@spacer" default="" type="spacer" />
+      <param name="stylesheet" type="text" size="40" default="" label="Stylesheet URL" description="The URL of the stylesheet you want WysiwygPro to use to render HTML. Leave blank for automatic detection of your default template stylesheet."/>
+      <param name="colors" type="text" size="40" default="" label="Color Swatches" description="A comma separated list of custom color swatches to appear on the color picker. Example: #fffff2, #f2f2f2"/>
+	  
+      <param name="styles" type="textarea" cols="38" rows="5" size="40" default="" label="Styles" description="WysiwygPro styles for the styles menu. Leave blank for the default set. The format is a friendly name for your style followed by a single colon : followed by the tag and any attributes. Example: Normal:p, Heading 1:h1, Heading 2:h2, Heading 3:h3, My Class:span class=&amp;quot;myClass&amp;quot;, Image Class:img class=&amp;quot;myImageClass&amp;quot;"/>
+	  
+	  
+      <param name="fonts" type="text" size="40" default="" label="Fonts" description="A semi-colon separated list of fonts for the font menu. Leave blank for the default set. This list is semi-colon separated so that you can use a comma to separate alternative fonts. Example: Verdana, Arial, Helvetica, sans-serif; Arial, Helvetica, sans-serif; Webdings"/>
+	  
+      <param name="sizes" type="text" size="40" default="" label="Font Sizes" description="A comma separated list of font sizes (numbers from 1-7 or in XHTML 1.1 mode specify pixel sizes) for the font size menu. Leave blank for the default set. Example: 1, 2, 3, 4"/>
+
+	  </params>
+   	<params group="advanced">
+      <param label="Links Manager" description="" name="@spacer" default="" type="spacer" />
+      <param name="content_links" type="list" default="1" label="Content Links" description="Enable the WysiwygPro article browser for easy creation of links to content items. (Requires the WysiwygPro 3 component)"> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+      
+	  <param label="Shared File Management" description="" name="@spacer" default="" type="spacer" />
+      <param name="image_manager" type="list" default="1" label="Image Manager" description="Enable shared image management."> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+      <param name="image_thumbnails" type="list" default="1" label="Image Thumbnails" description="If the Image Manager is enabled this allows you to enable or disable image thumbnail generation."> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+	  <param name="image_folder" type="text" size="40" default="/images/stories/" label="Store images in" description="If the image manager is enabled then images will be stored in this folder. Make sure this folder exists and is writable by your server."></param>
+	  <param name="imageDiskQuota" type="text" size="10" default="16 MB" label="Disk Quota" description="Disk quota for the images folder."/>
+	  
+      <param label="Document Manager" description="Whether to enable the shared document manager for linking to PDF files and other downloads." name="document_manager" default="1" type="list"> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+      <param name="document_folder" type="text" size="40" default="/images/stories/" label="Store documents in" description="If the document manager is enabled then documents will be stored in this folder. Make sure this folder exists and is writable by your server."></param>
+	 <param name="documentDiskQuota" type="text" size="10" default="16 MB" label="Disk Quota" description="Disk quota for the documents folder."/>
+	 
+	 <param label="Media Manager" description="Whether to enable the shared media manager for inserting Flash, QuickTime and other media files." name="media_manager" default="1" type="list"> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+      <param name="media_folder" type="text" size="40" default="/images/stories/" label="Store media in" description="If the media manager is enabled then media files will be stored in this folder. Make sure this folder exists and is writable by your server."></param>
+	  <param name="mediaDiskQuota" type="text" size="10" default="16 MB" label="Disk Quota" description="Disk quota for the media folder."/> 
+	  <param label="Embed Media Using JavaScript" description="Whether to embed media files using JavaScript. Enabling this option will remove the Click to Activate message in Internet Explorer." name="JSEmbed" default="0" type="list"> 
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+	  
+      
+	  <param label="Shared Folder Permissions" description="" name="@spacer" default="" type="spacer" />
+      <param name="publisher_permissions" type="list" default="read-only" label="Publisher Permissions" description="If any of the file managers are enabled this sets file permissions for Publishers."> 
+        <option value="everything">Full Permissions</option>
+        <option value="read-write-modify-delete">Upload, modify and delete files</option>
+        <option value="read-write-modify">Upload and modify existing files</option>
+		<option value="read-write">Upload files</option>
+		<option value="read-only">Read only</option>
+		<option value="0">No access</option>
+      </param>
+      <param name="editor_permissions" type="list" default="read-only" label="Editor Permissions" description="If any of the file managers are enabled this sets file permissions for Editors."> 
+        <option value="everything">Full Permissions</option>
+        <option value="read-write-modify-delete">Upload, modify and delete files</option>
+        <option value="read-write-modify">Upload and modify existing files</option>
+		<option value="read-write">Upload files</option>
+		<option value="read-only">Read only</option>
+		<option value="0">No access</option>
+      </param>
+      <param name="author_permissions" type="list" default="read-only" label="Author Permissions" description="If any of the file managers are enabled this sets file permissions for Authors."> 
+        <option value="everything">Full Permissions</option>
+        <option value="read-write-modify-delete">Upload, modify and delete files</option>
+        <option value="read-write-modify">Upload and modify existing files</option>
+		<option value="read-write">Upload files</option>
+		<option value="read-only">Read only</option>
+		<option value="0">No access</option>
+      </param>
+
+      <param name="registered_permissions" type="list" default="read-only" label="Registered Permissions" description="If any of the file managers are enabled this sets file permissions for Registered Users."> 
+        <option value="everything">Full Permissions</option>
+        <option value="read-write-modify-delete">Upload, modify and delete files</option>
+        <option value="read-write-modify">Upload and modify existing files</option>
+		<option value="read-write">Upload files</option>
+		<option value="read-only">Read only</option>
+		<option value="0">No access</option>
+      </param>
+	  
+	  <param name="anonymous_permissions" type="list" default="0" label="Anonymous Permissions" description="If any of the file managers are enabled this sets file permissions for Anonymous Users (user that are not logged in).">
+		<option value="read-only">Read only</option>
+		<option value="0">No access</option>
+      </param>
+	  
+	  <param label="User Folders" description="" name="@spacer" default="" type="spacer" />
+	  <param label="User Folders" description="Whether to enable folders for each user." name="user_folders" default="0" type="list"> 
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </param>
+	  <param name="user_folder" type="text" size="40" default="/images/users/" label="Store user folders in" description="If user folders is enabled then each user folder will be created within this directory. This folder must NOT be within any of the above folders. Make sure this folder exists and is writable by your server."></param>
+	  <param name="userDiskQuota" type="text" size="10" default="4 MB" label="Disk Quota" description="Disk quota for user folders."/>
+	  <param label="Allow Registered Users" description="Whether to allow registered users to have a user folder." name="user_folders_allow_registered" default="0" type="list"> 
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </param>
+	  
+	  
+	  <param label="File Types And Sizes" description="" name="@spacer" default="" type="spacer" />
+	  
+	 <param name="allowedImageExtensions" type="text" size="40" default=".jpg, .jpeg, .gif, .png" label="Allowed Image Types" description="Image file types that are allowed for upload, separate with a comma."/>
+      <param name="maxImageSize" type="text" size="10" default="140 KB" label="Max Image Size" description="The maximum allowed size of uploaded images. Most servers do not allow uploads larger than 2 MB."/>
+      <param name="maxImageWidth" type="text" size="10" default="500" label="Max Image Width" description="The maximum allowed width of uploaded images specified in pixels."/>
+      <param name="maxImageHeight" type="text" size="10" default="500" label="Max Image Height" description="The maximum allowed height of uploaded images specified in pixels."/> 
+	  
+	  <param name="allowedDocExtensions" type="text" size="40" default=".html, .htm, .pdf, .doc, .docx, .rtf, .txt, .xls, .xlsx, .ppt, pptx, .pps, .ppsx, .zip, .tar, .gzip, .bzip, .sit, .dmg" label="Allowed Document Types" description="Document file types that are allowed for upload, separate with a comma."/>
+      <param name="maxDocSize" type="text" size="10" default="2 MB" label="Max Document Size" description="The maximum allowed size of uploaded documents. Most servers do not allow uploads larger than 2 MB."/>
+	  
+	  <param name="allowedMediaExtensions" type="text" size="40" default=".swf, .wmv, .mov" label="Allowed Media Types" description="Media file types that are allowed for upload, separate with a comma."/>
+      <param name="maxMediaSize" type="text" size="10" default="2 MB" label="Max Media Size" description="The maximum allowed size of uploaded media files. Most servers do not allow uploads larger than 2 MB."/>
+	  
+	  
+	  <param label="Server File Permissions" description="" name="@spacer" default="" type="spacer" />
+	  <param name="fileCHMOD" type="text" default="0" label="CHMOD New Files to" description="If you need specific permissions set on files uploaded by the WysiwygPro file managers you may set them here, or leave blank to use the server defaults. Settings must be prefixed with a 0 e.g. 0666"></param>
+      <param name="folderCHMOD" type="text" default="0" label="CHMOD New Folders to" description="If you need specific permissions set on folders created by the WysiwygPro file managers you may set them here, or leave blank to use the server defaults. Settings must be prefixed with a 0 e.g. 0777"></param>
+	 	  
+	  <param label="Snippets" description="" name="@spacer" default="" type="spacer" />
+      <param name="snippet1_html" type="textarea" cols="38" rows="5" default="" label="Snippet 1 HTML" description="A snippet of HTML code which you use often so would like available on the Insert a Snippet tool."/>
+      <param name="snippet1_label" type="text" size="40" default="" label="Snippet 1 Label" description="Label for Snippet 1 so that you can quickly identify it."/>
+      <param name="snippet2_html" type="textarea" cols="38" rows="5" default="" label="Snippet 2 HTML" description="A snippet of HTML code which you use often and would like available on the Insert a Snippet tool."/>
+      <param name="snippet2_label" type="text" size="40" default="" label="Snippet 2 Label" description="Label for Snippet 2 so that you can quickly identify it."/>
+      <param name="snippet3_html" type="textarea" cols="38" rows="5" default="" label="Snippet 3 HTML" description="A snippet of HTML code which you use often and would like available on the Insert a Snippet tool."/>
+      <param name="snippet3_label" type="text" size="40" default="" label="Snippet 3 Label" description="Label for Snippet 3 so that you can quickly identify it."/>
+      <param name="snippet4_html" type="textarea" cols="38" rows="5" default="" label="Snippet 4 HTML" description="A snippet of HTML code which you use often and would like available on the Insert a Snippet tool."/>
+      <param name="snippet4_label" type="text" size="40" default="" label="Snippet 4 Label" description="Label for Snippet 4 so that you can quickly identify it."/>
+      <param name="snippet5_html" type="textarea" cols="38" rows="5" default="" label="Snippet 5 HTML" description="A snippet of HTML code which you use often and would like available on the Insert a Snippet tool."/>
+      <param name="snippet5_label" type="text" size="40" default="" label="Snippet 5 Label" description="Label for Snippet 5 so that you can quickly identify it."/>
+	  
+	  <param label="Toolbar Layout" description="" name="@spacer" default="" type="spacer" />
+	  <param name="toolbarLayout" type="list" default="0" label="Toolbar Layout" description="Whether to use a custom layout or the default layout. If you choose a custom layout then the toolbars defined below will replace the default toolbars. If you choose the default layout then the toolbars below will be displayed beneath the default toolbars."> 
+        <option value="0">Default layout</option>
+        <option value="1">Custom layout:</option>
+      </param>
+	  
+	  <param name="toolbar1" type="text" size="40" default="" label="Custom layout toolbar 1" description="A comma separated list of buttons to appear on toolbar 1. See http://www.wysiwygpro.com/index.php?id=143 for available buttons."/>
+	  <param name="toolbar2" type="text" size="40" default="" label="Custom layout toolbar 2" description="A comma separated list of buttons to appear on toolbar 2. See http://www.wysiwygpro.com/index.php?id=143 for available buttons."/>
+	  <param name="toolbar3" type="text" size="40" default="" label="Custom layout toolbar 3" description="A comma separated list of buttons to appear on toolbar 3. See http://www.wysiwygpro.com/index.php?id=143 for available buttons."/>
+	  
+	  <param label="Features" description="" name="@spacer" default="" type="spacer" />
+	  <param name="enableFeatures" type="text" size="40" default="" label="Enable Features" description="A comma separated list of features to enable. See http://www.wysiwygpro.com/index.php?id=143 for available features."/>
+	  <param name="disableFeatures" type="text" size="40" default="" label="Disable Features" description="A comma separated list of features to disable. See http://www.wysiwygpro.com/index.php?id=143 for available features."/>
+	  
+	  <param label="Plugins" description="" name="@spacer" default="" type="spacer" />
+	  <param name="loadPlugins" type="text" size="40" default="tagPath" label="Load Plugins" description="A comma separated list of plugins to load. Enter 'null' to load no plugins."/>
+
+	</params>
+  </install>

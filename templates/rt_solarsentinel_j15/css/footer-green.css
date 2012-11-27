@@ -1,0 +1,15 @@
+/* Green Footer Style */
+
+#botbar {background: #527A2F url(../images/footer/green/botbar-bg.png) 0 0 repeat-x;}
+#bottom {background: #405C33 url(../images/footer/green/bottom-bg.png) 0 0 repeat-x;}
+#mainmodules4 {color: #D1F7AD;}
+#mainmodules4 a {color: #fff;}
+#copyright {color: #D1F7AD;}
+#bottom-menu ul li a, #bottom-menu ul li .separator {color: #D1F7AD;}
+#bottom-menu ul li a:hover, #bottom-menu ul li .separator:hover {color: #fff;}
+#bottom ul li a {background: url(../images/modules/green-arrow.png) 0 4px no-repeat;color: #fff;}
+#bottom ul li:hover a {color: #D1F7AD;}
+#rocket {background: url(../images/footer/green/rocket.png) 0 0 no-repeat;}
+#top-button {background: url(../images/footer/green/top-button-bg.png) 0 0 no-repeat;}
+#top-button a {color: #D1F7AD;}
+#top-button a:hover {color: #fff;}

@@ -1,0 +1,50 @@
+/* font tweaking */
+#ff-optima h1, #ff-optima h2, #ff-optima h3, #ff-optima h4, #ff-optima h5, #ff-optima h6, #ff-lucida h1, #ff-lucida h2, #ff-lucida h3, #ff-lucida h4, #ff-lucida h5, #ff-lucida h6 {letter-spacing: -0.07em;}
+body#ff-optima, body#ff-lucida {letter-spacing: -0.05em;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 12px;}
+body#ff-trebuchet.f-large {font-size: 13px;}
+#header, ul.menutop {zoom:1;}
+#horiz-menu li.parent.sfHover, .menutop .drop-wrap {z-index:800 !important;}
+
+/* horizmenu */
+#horiz-menu {position:relative;z-index:140;}
+#horiz-menu li .link span, #horiz-menu li, #horiz-menu li.active, #horiz-menu li.sfHover, .menutop .animated-bg {display:inline-block;}
+#horiz-menu li.parent-sfHover, .menutop .drop-wrap {z-index:800 !important;}
+.menutop .submenu-animation-left {position: relative;}
+.menutop .submenu-animation-right {float: left;position:absolute;left:0;top:0;padding-right:8px;}
+
+/* main layout */
+.componentheading {width:100%;}
+h1.componentheading {width:auto;}
+#maincontent-block {position: relative;zoom: 1;}
+
+/* have to hard-code these widths */
+#buttons {width:35px;}
+
+.side-mod .module {position:relative;zoom:1;}
+
+/* rok module fixes */
+.roktabs-wrapper .roktabs-links ul li {white-space: nowrap;}
+#roksearch_results .container-wrapper {position:relative;zoom:1;}
+#roksearch_results .container-scroller {position:relative;zoom:1;}
+
+/* rok micronews */
+#rokmicronews { zoom:1;}
+.micronews-wrapper, .micronews-inner, .micronews-headline {position:relative;zoom: 1}
+.micronews-controls2 {width:38px;}
+
+/* default joomla layout fixes */
+.article_row {zoom: 1;}
+.cols1 {display: block !important;width: 100%;}
+.article_column {position: relative;}
+.cols2 {width: 49%;overflow: hidden;}
+
+.clr {line-height:0;height:0;}
+
+form.search_result button.button {padding-top: 0;line-height: 130%;}
+form.search_result fieldset.word label {line-height: 22px;}
+#searchmod .inputbox {padding-top: 0;line-height: 22px;}
+input.button {padding-top: 1px;}
+.readon-wrap1 span {line-height: 20px;}
+form.form-login input.button, form.log input.button {line-height: 18px;}
+form.form-login .inputbox {line-height: 16px;}

@@ -1,0 +1,15 @@
+/* Red Footer Style */
+
+#botbar {background: #912828 url(../images/footer/red/botbar-bg.png) 0 0 repeat-x;}
+#bottom {background: #6B1D1D url(../images/footer/red/bottom-bg.png) 0 0 repeat-x;}
+#mainmodules4 {color: #FFD0D0;}
+#mainmodules4 a {color: #fff;}
+#copyright {color: #FFD0D0;}
+#bottom-menu ul li a, #bottom-menu ul li .separator {color: #FFD0D0;}
+#bottom-menu ul li a:hover, #bottom-menu ul li .separator:hover {color: #fff;}
+#bottom ul li a {background: url(../images/modules/red-arrow.png) 0 4px no-repeat;color: #fff;}
+#bottom ul li:hover a {color: #FFD0D0;}
+#rocket {background: url(../images/footer/red/rocket.png) 0 0 no-repeat;}
+#top-button {background: url(../images/footer/red/top-button-bg.png) 0 0 no-repeat;}
+#top-button a {color: #FFD0D0;}
+#top-button a:hover {color: #fff;}

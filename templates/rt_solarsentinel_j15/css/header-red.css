@@ -1,0 +1,51 @@
+/* Red Header Style */
+
+#header-bar {background: #691D1D url(../images/header/red/header-bg.png) 0 0 repeat-x;}
+#logo {background: url(../images/header/red/logo.gif) 0 0 no-repeat;}
+.logo-text {color: #fff;}
+#searchmod {background: url(../images/header/red/search-bg.png) 0 0 no-repeat;}
+#horiz-menu {background: #6A1D1D url(../images/header/red/horiz-bg.png) 0 0 repeat-x;}
+#horiz-menu li:hover .link, #horiz-menu li.sfHover .link {color: #fff;}
+#horiz-menu .link {color: #fff;}
+#horiz-menu li:hover .link, #horiz-menu li.sfHover .link, #horiz-menu li.active .link {color: #fff;}
+#horiz-menu li.active .link, #horiz-menu li:hover .link, #horiz-menu li.sfHover .link {background: url(../images/header/red/horiz-r.png) 100% 0 no-repeat;}
+#horiz-menu li.active .link span, #horiz-menu li:hover .link span, #horiz-menu li.sfHover .link span {background: url(../images/header/red/horiz-l.png) 0 0 no-repeat;}
+#horiz-menu li.active .link, #horiz-menu li:hover .link, #horiz-menu li.sfHover .link {color: #FFD0D0;}
+#horiz-menu ul ul.columns-1 {background: url(../images/header/red/drop-bg-1.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-2 {background: url(../images/header/red/drop-bg-2.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-3 {background: url(../images/header/red/drop-bg-3.png) 0 100% no-repeat;}
+#horiz-menu ul ul.columns-4 {background: url(../images/header/red/drop-bg-4.png) 0 100% no-repeat;}
+.menutop .drop-wrap.columns-1 .drop1 {background: url(../images/header/red/drop-top-1.png) 0 0 no-repeat !important;}
+.menutop .drop-wrap.columns-2 .drop1 {background: url(../images/header/red/drop-top-2.png) 0 0 no-repeat;}
+.menutop .drop-wrap.columns-3 .drop1 {background: url(../images/header/red/drop-top-3.png) 0 0 no-repeat;}
+.menutop .drop-wrap.columns-4 .drop1 {background: url(../images/header/red/drop-top-4.png) 0 0 no-repeat;}
+#horiz-menu ul ul li .link.daddy, #horiz-menu ul li.parent.active:hover li .link.daddy, #horiz-menu ul li.parent.active.sfHover li .link.daddy, #horiz-menu ul li.parent:hover li .link.daddy, #horiz-menu ul li.parent.sfHover li .link.daddy {background: url(../images/header/red/drop-arrow.png) 95% 9px no-repeat;}
+.menutop .submenu-animation-right {background: url(../images/header/red/sub-bg-active-l.png) 0 0 no-repeat;}
+.menutop .submenu-animation-left {background: url(../images/header/red/sub-bg-active-r.png) 100% 0 no-repeat;}
+#horiz-menu.suckerfish li li:hover, #horiz-menu.suckerfish li li.sfHover {background: url(../images/header/red/sub-bg-active-r.png) 100% 0 repeat-x;}
+#horiz-menu.suckerfish li li:hover span, #horiz-menu.suckerfish li li:hover li:hover span, #horiz-menu.suckerfish li li:hover li:hover li:hover span, #horiz-menu.suckerfish li li:hover li:hover li:hover li:hover span, #horiz-menu.suckerfish li li.sfHover span, #horiz-menu.suckerfish li li.sfHover li.sfHover span, #horiz-menu.suckerfish li li.sfHover li.sfHover li.sfHover span, #horiz-menu.suckerfish li li.sfHover li.sfHover li.sfHover li.sfHover span {background: url(../images/header/red/sub-bg-active-l.png) 0 0 no-repeat;}
+
+#searchmod .search_options {color: #fff;}
+#roksearch_results .rokajaxsearch-overlay {background: #691D1D;}
+#roksearch_results {background: #691D1D;border: 1px solid #4D1515;border-top: 0;border-bottom: 0;}
+#roksearch_results a {color: #FFD0D0;}
+#roksearch_results a:hover {color: #fff;}
+#roksearch_results h3 {color: #fff;}
+#roksearch_results span {color: #FFD0D0;}
+#roksearch_results span.highlight {background: #FFD0D0;color: #333;}
+#roksearch_results .roksearch_header, #roksearch_results .roksearch_row_btm {background: #fff url(../images/header/red/horiz-bg.png) 100% 0 repeat-x;border-bottom: 1px solid #4D1515;color: #fff;}
+#roksearch_results .roksearch_odd {background: #691D1D url(../images/header/red/header-bg.png) 0 0 repeat-x;border-bottom: 1px solid #4D1515;}
+#roksearch_results .roksearch_even {background: #691D1D;border-bottom: 1px solid #4D1515;}
+#roksearch_results .roksearch_odd-hover, #roksearch_results .roksearch_even-hover {background: #A92F2F;}
+#roksearch_results .roksearch_odd-hover h3, #roksearch_results .roksearch_even-hover h3 {background: url(../images/modules/red-arrow.png) 0 4px no-repeat;}
+.results ol.list li p {color: #FFD0D0;}
+#roksearch_results a#roksearch_link {background: url(../images/header/red/search-close.png) 0 0 no-repeat;}
+#roksearch_results .arrow-left {background: url(../images/header/red/search-arrow.png) 0 0 no-repeat;}
+#roksearch_results .arrow-left-disabled {background: url(../images/header/red/search-arrow.png) -36px 0 no-repeat;}
+#roksearch_results .arrow-right {background: url(../images/header/red/search-arrow.png) -18px 0 no-repeat;}
+#roksearch_results .arrow-right-disabled {background: url(../images/header/red/search-arrow.png) -36px 0 no-repeat;}
+
+.rokradios {background: url(../images/modules/red-inputs.png) 0 0 no-repeat;}
+.rokradios-active {background: url(../images/modules/red-inputs.png) 0 -114px no-repeat;}
+
+.mininews-headline h2{background: url(../images/modules/red-h2.png) 50% 0 no-repeat;color: #fff;}

@@ -1,0 +1,29 @@
+This folder contains examples of WysiwygPro's plugin architecture. 
+The name of this plugin is "EXAMPLE", you can load it like this:
+
+$editor = new wysiwygPro();
+$editor->loadPlugin('EXAMPLE');
+$editor->display();
+
+Note: this plugin doesn't do anything useful, it is intended to help you learn the plugin architecture.
+
+File descriptions:
+
+**index.htm**
+Stops hackers from browsing the directory contents. Your plugins are not required to have this file but it is recommended that they do.
+
+**plugin.php**
+The PHP API plugin.
+Usually the PHP API plugin is used to add custom buttons to the toolbar. (but can do much more)
+
+**plugin.js**
+The javascript API plugin.
+Usually the javascript API plugin is used to provide the javascript functionality for any custom buttons. (but can do much more)
+
+**dialog.php**
+A custom dialog window that uses the dialog plugin architecture. 
+A single dialog plugin can be used to display multiple dialog screens. 
+A dialog plugin can be thought of as an application that runs inside a WysiwygPro dialog window.
+
+**includes**
+Folder containing templates, css files and any other stuff required by the plugin. You don't have to put these in a folder or use the same folder structure.

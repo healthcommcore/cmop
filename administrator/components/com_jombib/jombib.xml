@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<install version="1.0" type="component">
+<name>jombib</name>
+<creationDate>04/02/2009</creationDate>
+<author>Mark Austin</author>
+<copyright>This component in released under the GNU/GPL License</copyright>
+<authorEmail>mark.austin@everythingthatiknowabout.com</authorEmail>
+<authorUrl>www.everythingthatiknowabout.com</authorUrl>
+<version>1.5.0</version>
+<files>
+<filename>BibTex.php</filename>
+<filename>jombib.php</filename>
+<filename>jombib.html.php</filename>
+<filename>index.html</filename>
+</files>
+<install>
+<queries>
+<query>
+DROP TABLE IF EXISTS `#__bib`;
+</query>
+<query>
+CREATE TABLE `#__bib` (
+`type` VARCHAR(255),
+`address` VARCHAR(255),
+`annote` TEXT,
+`authorid` INT AUTO_INCREMENT,
+`booktitle` VARCHAR(255),
+`chapter` VARCHAR(255),
+`edition` VARCHAR(255),
+`editor` VARCHAR(255),
+`eprint` VARCHAR(255),
+`howpublished` VARCHAR(255),
+`institution` VARCHAR(255),
+`journal` VARCHAR(255),
+`key` VARCHAR(255),
+`month` VARCHAR(255),
+`note` VARCHAR(255),
+`number` VARCHAR(255),
+`organization` VARCHAR(255),
+`pages` VARCHAR(255),
+`publisher` VARCHAR(255),
+`school` VARCHAR(255),
+`series` VARCHAR(255),
+`title` TEXT,
+`volume` VARCHAR(255),
+`year` VARCHAR(255),
+`cite` VARCHAR(255),
+`url` TEXT,
+`keywords` TEXT,
+`abstract` TEXT,
+`authorsnames` TEXT,
+`shortauthnames` VARCHAR(255),
+`checkedout` INT DEFAULT 0,
+PRIMARY KEY (authorid)
+);
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_auth`;
+</query>
+<query>
+CREATE TABLE `#__bib_auth` (
+`id` INT,
+`num` INT,
+`first` VARCHAR(255),
+`von` VARCHAR(255),
+`last` VARCHAR(255),
+`jr` VARCHAR(255)
+);
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_content`;
+</query>
+<query>
+CREATE TABLE `#__bib_content` (
+`id` INT,
+`content` TEXT
+);
+</query>
+<query>
+CREATE TABLE `#__bib_categories` (
+`id` INT,
+`categories` VARCHAR(255)
+);
+</query>
+<query>
+INSERT INTO #__categories (name,description,params,section,published,title) values ('default','default','','com_jombib','1','default');
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_config`;
+</query>
+<query>
+CREATE TABLE `#__bib_config` (
+`variable` VARCHAR(32),
+`value` VARCHAR(32),
+`tooltip` TEXT,
+`name` VARCHAR(255)
+);
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('edit','on','Allow frontend users to edit?','Allow edit?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('add','on','Allow frontend users to create new references', 'Allow add?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('download','on','Allow frontend users to download bibtex files', 'Allow download?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('truncate','off','Truncate titles, authorsnames and journal names in frontend to fit each reference on one line','Truncate text in table?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('fullnames','on','Show fullnames rather than surnames when displaying references','Display full names?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('etal','on','Shorten names in frontend table to a main author and et al. if there are more than two authors','Use et al.?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('manualinput','on','Allow manual input of fields when adding new references','Allow manual input?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('topbuttons','off','Include a second set of navigation buttons at the top of the table in the frontend','Include top navigation buttons?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('smallicons','on','Display small icons for url link in frontend rather than larger ones','Small icons?');
+</query>
+<query>
+INSERT INTO #__bib_config (variable,value,tooltip,name) values ('formatted','off','Display formatted text references rather than a table with separate columns','Formatted display?');
+</query>
+</queries>
+</install>
+<uninstall>
+<queries>
+<query>
+DROP TABLE IF EXISTS `#__bib`;
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_auth`;
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_content`;
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_categories`;
+</query>
+<query>
+DROP TABLE IF EXISTS `#__bib_config`;
+</query>
+<query>
+delete from #__categories where section = 'com_jombib';
+</query>
+</queries>
+</uninstall>
+<installfile>install.jombib.php</installfile>
+<uninstallfile>uninstall.jombib.php</uninstallfile>
+<administration>
+<menu>Joomla BibTex</menu>
+<submenu>
+<menu act="view">View References</menu>
+<menu act="input">Input References</menu>
+<menu act="categories">View Categories</menu>
+<menu act="config">Configuration</menu>
+</submenu>
+<files>
+<filename>admin.jombib.php</filename>
+<filename>admin.jombib.html.php</filename>
+<filename>toolbar.jombib.php</filename>
+<filename>toolbar.jombib.html.php</filename>
+</files>
+</administration>
+<params>
+	<param name="catid" type="mos_category" default="0" scope="com_jombib" label="Category" description="Shows papers only from the selected category" />
+</params>
+</install>

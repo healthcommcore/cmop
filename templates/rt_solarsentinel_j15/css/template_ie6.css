@@ -1,0 +1,93 @@
+/** IE6 is a hunk of crap!!! due to limitations in the CSS capabilities of IE, these hacks are required **/
+
+/* font tweaking */
+#ff-optima h1, #ff-optima h2, #ff-optima h3, #ff-optima h4, #ff-optima h5, #ff-optima h6, #ff-lucida h1, #ff-lucida h2, #ff-lucida h3, #ff-lucida h4, #ff-lucida h5, #ff-lucida h6 {letter-spacing: -0.07em;}
+body#ff-optima, body#ff-lucida {letter-spacing: -0.05em;}
+body#ff-georgia, body#ff-georgia.f-default {font-size: 12px;}
+
+/* horizmenu */
+#horiz-menu {position:relative;z-index:140;}
+#horiz-menu li .link span, #horiz-menu li, #horiz-menu li.active, #horiz-menu li.sfHover, .menutop .animated-bg {display:inline-block;}
+#horiz-menu li.parent-sfHover, .menutop .drop-wrap {z-index:800 !important;}
+.menutop .submenu-animation-left {position: relative;}
+.menutop .submenu-animation-right {float: left;position:absolute;left:0;top:0;padding-right:8px;}
+
+/* topbar */
+.logo-text {right: 8px;}
+#accessibility {zoom: 1;}
+#accessibility #buttons {width: 41px;}
+#accessibility .button {float: left;line-height:16px;}
+#accessibility a.small .button {margin-left: 5px;margin-right: 0;}
+.textsizer-desc {float: right;}
+#login-module .username-block, #login-module .password-block {width: 120px;}
+#login-module input#mod_login_username.inputbox, #login-module input#mod_login_password.inputbox {width: 115px;}
+
+/* main layout */
+#body-left, #header-bar, #top-bar, #botbar, ul.menutop, #showcase3, #showcase4, #bottom, #footer, #footer2, #footer3, #footerbar2, #footerbar3, #bottom-menu, #leftcol, #leftcol-bg, #rightcol, #maincol, #maincol2, #main-body, .side-mod, #breadcrumbs, #breadcrumbs-home, .breadcrumbs, .pathway, ul.menu, .module, #showmodules, #maincontent-block, #mainmodules, #mainmodules2, #mainmodules3, #mainmodule4, #bottom-main, #inset-block-left, #inset-block-right, #inset-block-right .right-padding, #inset-block-left .left-padding, #main-content, #main-content-block, component-header, .feature-module, .article-info-surround, .article-info-surround2, .roktabs-wrapper, ul.bullet-3 li, #bottom ul li a, .topbar-strip {zoom: 1;}
+#page-bg {position: relative;}
+#inset-block-right {margin-left:0px;}
+#inset-block-left {margin-right:0px;}
+#header-bar {width: 96.9%;}
+.readon-wrap1 span {display:inline-block;line-height: 20px;}
+.readon-wrap1 {padding-left:7px;}
+.readon-wrap1, a.readon-main,.readon1-m,.readon1-r {position:relative;}
+
+#main-content-surround {zoom: 1;}
+.showcase-surround {zoom: 1;}
+.article_row {zoom: 1;}
+.cols1 {display: block !important;width: 100%;}
+.article_column {position: relative;}
+.cols2 {width: 49%;overflow: hidden;}
+#searchmod .inputbox {padding-top: 0;}
+h1.componentheading {width:auto;}
+#breadcrumbs-home {margin-right: -3px;}
+.x-c-s .colmask {background-position: 678px;}
+
+form.search_result button.button {padding-top: 0;line-height: 130%;}
+form.search_result fieldset.word label {line-height: 22px;}
+#searchmod .inputbox {padding-top: 0;line-height: 22px;}
+input.button {padding-top: 1px;}
+
+form.form-login input.button, form.log input.button {line-height: 18px;}
+form.form-login .inputbox {line-height: 16px;}
+
+/* rok stories */
+.feature-module .image-container {position: relative;}
+
+/* rok micronews */
+#rokmicronews, .micronews-article-wrapper, .micronews-titles, .micronews-list, .micronews-articles { zoom:1;}
+.micronews-wrapper, .micronews-inner, .micronews-headline {position:relative;zoom: 1}
+.micronews-controls2 {width:38px;}
+
+/* rok newspager */
+.roknewspager-pages {zoom: 1;}
+.roknewspager-numbers {display: inline;}
+.roknewspager-prev, .roknewspager-next, .roknewspager-prev-disabled, .roknewspager-next-disabled {margin-top: 1px;}
+
+/* rok tabs */
+.roktabs-wrapper {width:auto;}
+
+/* rok stock */
+#rokstock {zoom: 1;}
+#rokstock .rokstock-graph {width: 230px !important;overflow:hidden !important;}
+#rokstock .legend {margin-right: 1px;}
+
+/* rok module fixes */
+#roksearch_results .roksearch_even {zoom:1;}
+#roksearch_results .container-wrapper {position:relative;zoom:1;width:400px;}
+#roksearch_results .container-scroller {position:relative;zoom:1;}
+#roksearch_results .container-scroller .page .roksearch_odd, #roksearch_results .container-scroller .page .roksearch_even {zoom:1;z-index:1000;}
+#roksearch_results .container-scroller span.small { bottom:6px;right:10px}
+.roktabs-wrapper .roktabs-links ul li {white-space: nowrap;}
+.roktabs-wrapper .arrow-prev {background-position: 0 0;}
+
+/* ie6 warning */
+#iewarn {background: #C6D3DA url(../images/error.png) 10px 20px no-repeat;position: relative;z-index: 1;opacity: 0;margin: -150px auto 0;font-size: 110%;color: #001D29;z-index: 8000;}
+#iewarn div {position: relative;border-top: 5px solid #95B8C9;border-bottom: 5px solid #95B8C9;padding: 10px 80px 10px 220px;}
+#iewarn h4 {color: #900;font-weight: bold;line-height: 120%;}
+#iewarn a {color: #296AC6;font-weight: bold;}
+#iewarn_close {background: url(../images/close.png) 50% 50% no-repeat;display: block;cursor: pointer;position: absolute;width: 61px;height: 21px;top: 25px;right: 12px;}
+#iewarn_close.cHover {background: url(../images/close_hover.png) 50% 50% no-repeat;}
+
+/* page peel overrides for demo site */
+a.fliptip {display: block;z-index: 100000;position: relative;}

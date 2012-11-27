@@ -1,0 +1,58 @@
+/* ie 7 fixes */
+body, html {
+	height: 100%;
+}
+
+/* hidden guides for the document being edited */
+@media screen,projection {
+	/* object placeholder */
+	img.wproFilePlugin {
+		border: 1px dotted #990000;
+		background-color: #CCCCCC;
+	}
+	
+	/* tables */
+	table.wproGuide,table.wpguide,table.wproGuide td,table.wproGuide th,table.wpguide td,table.wpguide th {
+		border-collapse: separate;
+		border:1px dotted #666666;
+	}
+	/* links */
+	a.wproGuide,a.wpguide {
+		padding-left:15px;
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	/* forms */
+	form.wproGuide,form.wpguide {
+		border:1px dotted #FF9900;
+		padding-top:8px;
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+	/* uneditable regions */
+	.wproContentUneditable,.wpcontentuneditable {
+		/*content-editable:false;*/
+		border:1px dotted #cc0000;
+		-moz-user-focus:ignore;
+		-moz-user-modify:read-only;
+		-moz-user-select:none;
+	}
+	/* editable regions */
+	.wproContentEditable,.wpcontenteditable {
+		padding-top:8px;
+		background-repeat:no-repeat;
+		background-position:top left;
+		/*content-editable:true;*/
+		border:1px dotted #66cccc;
+		-moz-user-focus:none;
+		-moz-user-input:auto;
+		-moz-user-modify:read-write;
+		-moz-user-select:text;
+	}
+	/* highlighting */
+	td.wproHighlight,td.wphighlight,th.wproHighlight,th.wphighlight {
+		border-color: highlight;
+		background-color: highlight;
+		color: highlighttext;
+	}
+}

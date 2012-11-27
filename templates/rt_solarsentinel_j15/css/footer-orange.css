@@ -1,0 +1,15 @@
+/* Orange Footer Style */
+
+#botbar {background: #F47F00 url(../images/footer/orange/botbar-bg.png) 0 0 repeat-x;}
+#bottom {background: #F55A00 url(../images/footer/orange/bottom-bg.png) 0 0 repeat-x;}
+#mainmodules4 {color: #FFDBBD;}
+#mainmodules4 a {color: #fff;}
+#copyright {color: #FFDBBD;}
+#bottom-menu ul li a, #bottom-menu ul li .separator {color: #FFDBBD;}
+#bottom-menu ul li a:hover, #bottom-menu ul li .separator:hover {color: #fff;}
+#bottom ul li a {background: url(../images/modules/orange-arrow.png) 0 4px no-repeat;color: #fff;}
+#bottom ul li:hover a {color: #FFDBBD;}
+#rocket {background: url(../images/footer/orange/rocket.png) 0 0 no-repeat;}
+#top-button {background: url(../images/footer/orange/top-button-bg.png) 0 0 no-repeat;}
+#top-button a {color: #FFDBBD;}
+#top-button a:hover {color: #fff;}

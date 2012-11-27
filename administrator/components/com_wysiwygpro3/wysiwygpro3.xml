@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+<name>WysiwygPro 3</name>
+<version>1.0</version>
+<creationDate>March 2008</creationDate>
+<author>Chris Bolt</author>
+<authorEmail>chris@wysiwygpro.com</authorEmail>
+<authorUrl>http://www.wysiwygpro.com/</authorUrl>
+<copyright>Chris Bolt</copyright>
+<description>WysiwygPro 3 Component.
+WysiwygPro Component Installation Complete.
+If you have installed the 4 plugins then you have now completed installation. 
+	INSTALLATION INFORMATION: WysiwygPro contains a large number of configuration 
+      options that you can change by Navigating to Extensions, Plugin
+	  Manager and selecting WysiwygPro 3. If you 
+      don't see a feature in the editor that you were expecting then please check 
+      the configuration options as some features are disabled by default. 
+      After installing don't forget to verify that WysiwygPro 3 is now listed as 
+      the default editor under Site, Global Configuration. 
+	  For help please see the manual included in the ZIP file.
+	  Thank you for choosing WysiwygPro!</description>
+<files>
+    <filename>wysiwygpro3.php</filename>
+	<filename>index.html</filename>
+</files>
+<administration>
+     <files>
+      <filename>admin.wysiwygpro3.php</filename>
+	  <filename>index.html</filename>
+    </files>
+</administration>
+</install>

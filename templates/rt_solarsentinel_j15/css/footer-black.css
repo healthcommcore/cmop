@@ -1,0 +1,15 @@
+/* Black Footer Style */
+
+#botbar {background: #383838 url(../images/footer/black/botbar-bg.png) 0 0 repeat-x;}
+#bottom {background: #222 url(../images/footer/black/bottom-bg.png) 0 0 repeat-x;}
+#mainmodules4 {color: #999;}
+#mainmodules4 a {color: #fff;}
+#copyright {color: #999;}
+#bottom-menu ul li a, #bottom-menu ul li .separator {color: #999;}
+#bottom-menu ul li a:hover, #bottom-menu ul li .separator:hover {color: #fff;}
+#bottom ul li a {background: url(../images/modules/black-arrow.png) 0 4px no-repeat;color: #fff;}
+#bottom ul li:hover a {color: #999;}
+#rocket {background: url(../images/footer/black/rocket.png) 0 0 no-repeat;}
+#top-button {background: url(../images/footer/black/top-button-bg.png) 0 0 no-repeat;}
+#top-button a {color: #999;}
+#top-button a:hover {color: #fff;}
