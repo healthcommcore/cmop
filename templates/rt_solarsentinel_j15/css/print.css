@@ -1,0 +1,8 @@
+body, .f-default{font-family: Times New Roman, serif; font-weight:normal: font-size:16pt;}
+.s-c-x .col1{margin:0; right:100%; overflow:visible;}
+#top-bar, #header-bar, #horiz-menu, #feature-section, .col2{display:none;}
+.s-c-x .col1wrap{right:0;}
+#page{width:70%;}
+.s-c-x .colright, .s-c-x .col1{border:none;}
+h1, h2, h3, h4, h5, h1.contentheading, h1.componentheading, h2.contentheading, h2.componentheading, .contentheading, .componentheading{font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+.s-c-x .colright{left:0;}

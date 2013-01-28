@@ -12,6 +12,7 @@ $this->addStylesheet($this->baseurl."/templates/".$this->template."/css/body-".$
 $this->addStylesheet($this->baseurl."/templates/".$this->template."/css/footer-".$footer_style.".css");
 $this->addStylesheet($this->baseurl."/templates/".$this->template."/css/modules.css");
 $this->addStylesheet($this->baseurl."/templates/".$this->template."/css/typography.css");
+$this->addStylesheet($this->baseurl."/templates/".$this->template."/css/print.css", $type="text/css", $media = "print");
 $this->addStylesheet($this->baseurl."/templates/system/css/system.css");
 $this->addStylesheet($this->baseurl."/templates/system/css/general.css");
 if($mtype=="moomenu" or $mtype=="suckerfish") :
